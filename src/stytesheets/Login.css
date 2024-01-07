@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+#main{
+    height: 40vmin;
+    min-height: 300px;
+    width: 42vmin;
+    min-width: 300px;
+    /* background-color: black; */
+    margin: auto;
+    margin-top: 5vmax;
+    border-radius: 16px;
+    border: 4px black solid;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#main #text{
+    transform: translateY(40%);
+    font-size: 40px;
+    font-family: 'Rubik Scribble';
+}
+#main form{
+    height: 85%;
+    width: 90%;
+}
+#main input{
+    height: 15%;
+    width: 90%;
+}
+#main #signup{
+    font-size: 23px;
+    font-weight: 900;
+    height: 7vmin;
+    min-height: 41px;
+    width: 18vmin;
+    min-width: 120px;
+    margin-top: 2vmax;
+    padding: 1vmin;
+    padding:auto;
+    border: 2px black solid;
+    border-radius: 4px;
+    color: white;
+    background-color: black;
+    margin-bottom: 2vmin;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto Slab';
+}
+@media (max-width:600px){
+    #main #text{
+        transform: translateY(20%);
+    }
+}

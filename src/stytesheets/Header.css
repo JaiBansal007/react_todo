@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap');
+
+#header{
+    position: relative;
+    height: 10vmin;
+    min-height: 80px;
+    width: 100vw;
+    color: white;
+    background: linear-gradient(to right ,rgb(24, 101, 43),rgb(31, 152, 165));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20vmin;
+    padding-right: 10vmin;
+}
+#leftheader{
+    font-size: 33px;
+    font-weight: bolder;
+}
+.rightheader{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:38px;
+}
+.rightheader #home,#profile,#login{
+    padding: 3px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: 'Montserrat';
+}
+.rightheader button{
+    border: none;
+    background-color: transparent;
+}
+#header #img{
+    display: none;
+    height: auto;
+    min-height: auto;
+}
+#header img{
+    height: 8vmin;
+    width: 6vmin;
+    display: none;
+}
+.rightheader #home:hover,#profile:hover,#login:hover{
+    background-color: rgb(219, 219, 92);
+}
+@media (max-width:600px){
+    .rightheader {
+        border: 2px solid black;
+        border-radius: 6px;
+        width: 20vw;
+        height: auto;
+        flex-direction: column;
+        background-color: white;
+        transform: translate(110%,70%);
+    }
+    .rightheader  #home,#profile,#login{
+        color: black;
+    }
+    #header img{
+        display: block;
+        z-index: 1;
+    }
+    #header img{
+        height: 7vmin;
+        width: 6vmin;
+    }
+}

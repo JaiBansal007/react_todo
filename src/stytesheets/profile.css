@@ -1,0 +1,15 @@
+#userdata{
+    /* height: 100vh;
+    width: 100vw; */
+    /* background-color: black; */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10vmin;
+    font-size: 40px;
+    background-color: aqua;
+    border-radius: 2px;
+    background-color: black;
+}

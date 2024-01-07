@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+
+form{
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+form input{
+    height: 8vmin;
+    min-height: 54px;
+    width: 38vmin;
+    min-width: 200px;
+    margin-top: 2vmax;
+    padding: 3vmin;
+    border: 2px black solid;
+    border-radius: 4px;
+    font-size: 17px;
+}
+form button{
+    height: 7vmin;
+    min-height: 41px;
+    width: 18vmin;
+    min-width: 120px;
+    margin-top: 2vmax;
+    padding: 1vmin;
+    border: 2px black solid;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: black;
+    margin-bottom: 1vmin;
+}
+#tasks{
+    width: 100%;
+    background-color: rgb(159, 171, 183);
+    padding: 3.5vmin;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Roboto Slab';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
